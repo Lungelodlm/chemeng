@@ -1,0 +1,5 @@
+import pandas as pd
+a=pd.DataFrame({'raa':[2,1],'r4':[3,4]})
+newdict={'raa':'ranew','r4':'r4'}
+a.rename(columns=newdict, inplace=True)
+disp
